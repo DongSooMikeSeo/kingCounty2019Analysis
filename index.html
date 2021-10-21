@@ -89,21 +89,15 @@
             font-family: 'PT Sans Caption', sans-serif;
         }
         
-      
-
         nav a {
             color: white;
             text-decoration: none;
             display: block;
-   
             text-transform: uppercase;
             padding-left: 30px;
             padding-right: 30px;
             font-size: 25px;
         }
-
-
-
 
         header h4 {
             color: greenyellow;
@@ -111,12 +105,6 @@
            font-family: 'PT Sans Caption', sans-serif;
         }
         
-        
-        
-  
-
-        
-
         footer {
             background-color: green;
             padding: 10px;
@@ -164,34 +152,19 @@
                   font-family:'PT Sans Caption', sans-serif; 
         }
         
-        P {
-            
+        P {  
         font-family:'PT Sans Caption', sans-serif;    
         color: darkgreen;
-            
-            
         }
         
         #myChart {
         color: darkgreen
-            
         }
-        
-        
     </style>
-
-
-
- 
-
-
 
 </head>
 
 <body>
-
-
-
 
 
     <header id="header">
@@ -199,84 +172,55 @@
 
 
 
-        <H4> King County General Election Voting Pattern Analysis </H4>
+        <H4> King County Voting Pattern Analysis </H4>
 
    
 
 
         <nav>
-
          <ul>
-                <li>                            <!-- Button trigger modal -->
-<button type="button" style= "font-family:'PT Sans Caption', sans-serif; font-size: large; color: greenyellow" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModalCenter">
-  Please Read Me: How to Use This Map
-</button></li>
-
-               
-
+            <li>        <!-- Button trigger modal -->
+                <button type="button" style= "font-family:'PT Sans Caption', sans-serif; font-size: large; 
+                color: greenyellow" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModalCenter">
+                Please Read Me: How to Use This Map
+                </button></li>
             </ul>
     
             
             
-            
-
- 
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content" style="background-color: lightgrey">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle" style="color:green" >We want your voice!</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        This map is showing value of residuals from a regression analysis with two variables: <br>1. % of voters voting "NO" for Initiatives 976 (dependent variable) <br> 2. % of voters voting "Approve" for Referendum #88 in the general election 2019. (explanatory variable) <br>
-          In most case, voter who votes "NO" for Initiatives 976 would also expectedly vote "Approve" for Referendum #88, under general "Progressive" value system, which is prevalent in Washington state. <br>
-          However, sometimes, there are precinct showing diverging sentiment on this kind of pair of seemingly similar voting races. That is where this regression model underpredicts, leaving residual with higher value. <br>  <br>
-          Now, YOU can look for a precinct with high residual and leave a comment (on your right), about what factor you think makes this conflict happen. That could be race, education, income level, and whatever. <br>
-          You can search through the precincts in 3 ways: <br>
-          1. Just look at the map and drag around it. <br>
-          2. Examine residual graph on the left and click the bubble of your interest, and you will be led to corresponding precinct. <br>
-          3. Using an address search bar on top left, you can search an address of the location of your interest, and then you will see the precinct that encompasses your location. <br> <br>
-          Once you find an precinct of your interest, you click it, and then check out if somebody else already left comments there. Regardless, once you click the precinct, put your name and comment into the form on the right, then hit the submit button. Your comment will show up in the popup box of the precinct. That is it!  <br> <br> We will use your input to better adjust our statistical model. We will examine your recommendation, and then will actively look into related variables, and then add them into our model. So we are building this research <b>together</b>!
-
-          
-          
-          
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-outline-success" data-dismiss="modal" style= "font-family:'PT Sans Caption', sans-serif; font-size: large; color: green">Close</button>
-
-      </div>
-    </div>
-  </div>
-</div>     
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content" style="background-color: lightgrey">
         
-
-        
-
-
-
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle" style="color:green" >We want your voice!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                     This map is showing value of residuals from a regression analysis with two variables: <br>1. % of voters voting "NO" for Initiatives 976 (dependent variable) <br> 2. % of voters voting "Approve" for Referendum #88 in the general election 2019. (explanatory variable) <br>
+                    In most case, voter who votes "NO" for Initiatives 976 would also expectedly vote "Approve" for Referendum #88, under general "Progressive" value system, which is prevalent in Washington state. <br>
+                    However, sometimes, there are precinct showing diverging sentiment on this kind of pair of seemingly similar voting races. That is where this regression model underpredicts, leaving residual with higher value. <br>  <br>
+                    Now, YOU can look for a precinct with high residual and leave a comment (on your right), about what factor you think makes this conflict happen. That could be race, education, income level, and whatever. <br>
+                    You can search through the precincts in 3 ways: <br>
+                    1. Just look at the map and drag around it. <br>
+                    2. Examine residual graph on the left and click the bubble of your interest, and you will be led to corresponding precinct. <br>
+                    3. Using an address search bar on top left, you can search an address of the location of your interest, and then you will see the precinct that encompasses your location. <br> <br>
+                    Once you find an precinct of your interest, you click it, and then check out if somebody else already left comments there. Regardless, once you click the precinct, put your name and comment into the form on the right, then hit the submit button. 
+                    Your comment will show up in the popup box of the precinct. That is it!  
+                    <br> <br> We will use your input to better adjust our statistical model. We will examine your recommendation, and then will actively look into related variables, and then add them into our model. So we are building this research <b>together</b>!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-success" data-dismiss="modal" style= "font-family:'PT Sans Caption', sans-serif; font-size: large; color: green">Close</button>
+                    </div>
+                 </div>
+            </div>
+        </div>     
         </nav>
-
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
     </header>
+
     <div id="clickers">
 
 
@@ -301,48 +245,10 @@
     </script>
 
 
-
-    <div id="leftPanel">
-
-      
-     <canvas id="myChart" width="380" height="380"></canvas>
-            
-    </div>
+    
 
 
     
-    
-    
-    
-    
-    
-    
-    
-    <div id="rightPanel">
-
-        <h4>Submit your Comment</h4>
-    
-        
-        
-        <form action="assets/process.php" method="post" enctype="multipart/form-data">
-	  <label for="name">Your Name:</label><br>
-  <input type="text" id="name" name="name"><br>
-		<br>
-
-<label for="message">Your Opinion:</label><br>      
-		 <textarea name="message" rows="10" cols="20"></textarea>
-		<br><br>
-        <input type="hidden" id="precinctID" name="precinctID" value="" />    
-		<input type="submit" value="submit" style="font-family:'PT Sans Caption', sans-serif; font-size: larger; color: darkgreen">
-	</form>
-        
-        
-        
-
-    </div>
-
-
-
 
     <script>
         var elem = document.documentElement;
@@ -415,6 +321,7 @@
 
 
 
+
     <div id="testMap" style="height: 100vh; width: 100%;"> </div>
 
     <script>
@@ -448,20 +355,20 @@
     
 
         function getColor(d) {
-    return d > 2 ? '#800026' :
-           d > 1.5  ? '#BD0026' :
-           d > 1  ? '#E31A1C' :
-           d > 0.5  ? '#FC4E2A' :
-           d > 0   ? '#FD8D3C' :
-           d > -0.5   ? '#FEB24C' :
-           d > -1   ? '#FED976' :
+    return d > 0.8 ? '#800026' :
+           d > 0.5  ? '#BD0026' :
+           d > 0.4  ? '#E31A1C' :
+           d > 0.3  ? '#FC4E2A' :
+           d > 0.2   ? '#FD8D3C' :
+           d > 0.1   ? '#FEB24C' :
+           d > 0   ? '#FED976' :
                       '#FFEDA0';
 }
                     
    
 function style(feature) {
     return {
-        fillColor: getColor(feature.properties.STDRESID),
+        fillColor: getColor(feature.properties.difference),
         weight: 2,
         opacity: 1,
         color: 'white',
@@ -480,130 +387,19 @@ function style(feature) {
 
         }).addTo(mymap);
 
-
-        
-
-        var test;
-
-        $.getJSON("assets/data.json", function(data) {
-            test = data;
-            console.log(test);
-            }
-        );
-
-    var storage = [];
-        $.getJSON("./gwrResult.geojson", function(data) {
-  
-            kingCountyVotingDistLayer.addData(data);
-         
-           
-            storage =[];
-            data.features.forEach(features =>{
-                storage.push({
-                
-            x: features.properties.STDRESID,
-            y: features.properties.C_FINALDAT,
-            ID: features.properties.FID        
-            
-            })
-       
-        return storage; 
-        })
-        var ctx = document.getElementById('myChart').getContext('2d');
-      
-var scatterChart = new Chart(ctx, {
-    type: 'scatter',
-    data: {
-        datasets: [{
-            label: 'Scatterplot of Residual and Coefficient Value',
-            fontColor: "rgba(30, 130, 76, 1)",
-             backgroundColor: "rgba(30, 130, 76, 1)",
-            hoverBackgroundColor: "rgba(232,105,90,0.8)",
-            hoverBorderColor: "orange",
-            data: storage
-        }]
-    },
-    options: {
-        scales: {
-            xAxes: [{
-                type: 'linear',
-                position: 'bottom',
-                scaleLabel: {
-            display: true,
-            labelString: 'Residual'
-          }
-            }],
-            
-           yAxes: [{
-                scaleLabel: {
-            display: true,
-            labelString: 'Coefficient'
-          }
-            }]
-        },
-        onClick: graphClickEvent
-    }
-});       
-        });
-
-
-        
-    
-       
-
- 
-        
    
-        
+    $.getJSON("./gdf.geojson", function(data) {
   
-        
-var selectedID;        
-        
-function graphClickEvent(event, array){
-    if(array[0]){
-        console.log(array[0]); 
-        console.log(array[0]._index);
-        selectedID = this.data.datasets[0].data[array[0]._index].ID;
-        console.log(selectedID);
-        
-         var kingCountyVotingDistLayerChosen = L.geoJSON(null, {
-            style: function(feature) {
-                return {
-                    color: "##0000FF",
-                    fill: "#00FFFF"
-                };
-            },
-             onEachFeature: onEachFeature,
-            filter: (f) => {
-            return  (f.properties.FID == selectedID)     
-            }
+    kingCountyVotingDistLayer.addData(data);
 
-        }).addTo(mymap);
 
-       
-        
-        $.getJSON("./gwrResult.geojson", function(data) {
-            
-             kingCountyVotingDistLayerChosen.addData(data);
-             mymap.fitBounds(kingCountyVotingDistLayerChosen.getBounds());
-        })}};        
-        
+});
 
         function onEachFeature(feature, layer) {
-            var popupContent = "<p>Feature Type: " + feature.geometry.type +
+            var popupContent = "<p>Name: " + feature.properties.NAME +
                 "</br> Name: " + feature.properties.NAME +
-                "</br> Total Voters: " + feature.properties.SUM_VOTERS+"</br> FID: " + feature.properties.FID+"</br>";
-//                    console.log(feature.properties.NAME, test[0].precinctID);            
-                                    var text87 = " "; 
-                                    for (i in test){
-                    if(test[i].precinctID == feature.properties.NAME){
-//                                  console.log(test[i]["precintID"] == feature.properties.NAME);
-                                  text87 += test[i].name+": "+test[i].message+"</br>";
-                                    
-                          console.log(text87);
-                        popupContent += text87;
-                        var text87 = " ";
-                            }}
+                "</br> Total Voters: " + feature.properties.SUM_VOTERS;           
+            
             
              
              
