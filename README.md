@@ -13,3 +13,4 @@ For example, in 2019, there were Initiative #976 (whether to cut transportation 
  This voter guide recommended "No" for Initiative #976 (so don't cut) and "Approed" for Referendum #88 (so restore Affirmative action). However, if a voter has a different set of opinion (maybe "No" for #976 but "Disapproved" for #88), the voter would distrust this guide as a whole.
 
  This mapping project is to spot election precincts that have this kind of divergence. After spotting these precincts, marketers and organizers will be able to employ more tailored marketing strategies for them.    
+  
