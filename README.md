@@ -4,6 +4,7 @@
 If you send out un-customized marketing materials for everybody, you will just waste your resource and even end up losing your votes. 
 
 **See Jupyter Notebook for data wrangling and Folium Map [here.](https://github.com/DongSooMikeSeo/kingCounty2019Analysis/blob/master/King%20County%202019%20General%20Election.ipynb)**
+
 **See final live web map [here.](https://dongsoomikeseo.github.io/kingCounty2019Analysis/)**
 
 
@@ -18,4 +19,5 @@ For example, in 2019, there were Initiative #976 (whether to cut transportation 
  This mapping project is to spot election precincts that have this kind of divergence. After spotting these precincts, marketers and organizers will be able to employ more tailored marketing strategies for them.    
 
 **See Jupyter Notebook for data wrangling and Folium Map [here.](https://github.com/DongSooMikeSeo/kingCounty2019Analysis/blob/master/King%20County%202019%20General%20Election.ipynb)**
+
 **See my live web map [here.](https://dongsoomikeseo.github.io/kingCounty2019Analysis/)**
