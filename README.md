@@ -3,7 +3,9 @@
 
 If you send out un-customized marketing materials for everybody, you will just waste your resource and even end up losing your votes. 
 
-**See my live map [here.](https://dongsoomikeseo.github.io/kingCounty2019Analysis/)**
+**See Jupyter Notebook for data wrangling and Folium Map [here.](https://github.com/DongSooMikeSeo/kingCounty2019Analysis/blob/master/King%20County%202019%20General%20Election.ipynb)**
+**See final live web map [here.](https://dongsoomikeseo.github.io/kingCounty2019Analysis/)**
+
 
 ## What is this project about?
 Every election season, we enocunter so many so-called ["Voter Guides"](https://progressivevotersguide.com/washington/2021/general?type=general&year=2021&src=pvg2019general&lang=en). These guides are sent from "umbrella" kind of political organizations. They are packaging their recommendations for every single race and ballot. Is this broad messaging working? What if voters have diverging opinions on seemingly similar progressive issues?  
@@ -15,4 +17,5 @@ For example, in 2019, there were Initiative #976 (whether to cut transportation 
 
  This mapping project is to spot election precincts that have this kind of divergence. After spotting these precincts, marketers and organizers will be able to employ more tailored marketing strategies for them.    
 
-**See my live map [here.](https://dongsoomikeseo.github.io/kingCounty2019Analysis/)**
+**See Jupyter Notebook for data wrangling and Folium Map [here.](https://github.com/DongSooMikeSeo/kingCounty2019Analysis/blob/master/King%20County%202019%20General%20Election.ipynb)**
+**See my live web map [here.](https://dongsoomikeseo.github.io/kingCounty2019Analysis/)**
