@@ -21,3 +21,7 @@ For example, in 2019, there were Initiative #976 (whether to cut transportation 
 **See Jupyter Notebook for data wrangling and Folium Map [here.](https://github.com/DongSooMikeSeo/kingCounty2019Analysis/blob/master/King%20County%202019%20General%20Election.ipynb)**
 
 **See my live web map [here.](https://dongsoomikeseo.github.io/kingCounty2019Analysis/)**
+
+**Snapshot of Folium Map. You can see there is a cluster of precincts with diverging votting in South King County**
+
+![App Screenshot](https://i.ibb.co/h8hNSjh/picture444.png)
