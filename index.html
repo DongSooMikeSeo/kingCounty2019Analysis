@@ -397,9 +397,9 @@ function style(feature) {
 
         function onEachFeature(feature, layer) {
             var popupContent = "<p>Name: " + feature.properties.NAME +
-                "</br> Total Voters: " + feature.properties.SUM_VOTERS
-                "</br> #976 \"No\" : " + feature.properties.no_percent +
-                "</br> #88 \"Approve\" : " + feature.properties.approve_percent;           
+                "</br> Total Voters: " + feature.properties.SUM_VOTERS+
+                "</br> #976 \"No\" : " + feature.properties.no_percent*100 +'%'+
+                "</br> #88 \"Approve\" : " + feature.properties.approve_percent*100+'%';           
             
               
              
