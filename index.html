@@ -384,7 +384,7 @@
     
 
         function getColor(d) {
-    return d > 0.09  ? '#FC4E2A' :
+    return d > 0.09  ? '#800026' :
            d > 0.04   ? '#FD8D3C' :
            d > 0.02   ? '#FEB24C' :
            d > 0   ? '#FED976' :
@@ -489,7 +489,7 @@ function style(feature) {
     // loop through our density intervals and generate a label with a colored square for each interval
     for (var i = 0; i < grades.length; i++) {
         div.innerHTML +=
-            '<i style="background:' + getColor(grades[i]) + '"></i> ' +
+            '<i style="background:' + getColor(grades[i]+0.0001) + '"></i> ' +
             grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
     }
 
