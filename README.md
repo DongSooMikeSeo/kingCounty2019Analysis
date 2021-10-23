@@ -10,6 +10,6 @@ For example, in 2019, there were Initiative #976 (whether to cut transportation 
   
 
 
-![App Screenshot](https://ibb.co/yRqH6VP)
+![alt text](https://ibb.co/yRqH6VP)
 
   
