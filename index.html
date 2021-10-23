@@ -457,7 +457,7 @@ function style(feature) {
     
         
         
-  </script>
+
 
 
         
@@ -465,7 +465,6 @@ function style(feature) {
     
   
 
-<script>
     
     	mymap.addControl( new L.Control.Search({
 		url: 'https://nominatim.openstreetmap.org/search?format=json&q={s}',
@@ -490,7 +489,7 @@ function style(feature) {
     // loop through our density intervals and generate a label with a colored square for each interval
     for (var i = 0; i < grades.length; i++) {
         div.innerHTML +=
-            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+            '<i style="background:' + getColor(grades[i]) + '"></i> ' +
             grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
     }
 
