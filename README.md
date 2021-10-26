@@ -3,7 +3,7 @@
 
 If you send out un-customized marketing materials for everybody, you will just waste your resource and even end up losing your votes. 
 
-**See Jupyter Notebook for data wrangling and Folium Map [here.](https://github.com/DongSooMikeSeo/kingCounty2019Analysis/blob/master/King%20County%202019%20General%20Election.ipynb)**
+**See Jupyter Notebook for data wrangling and Folium Map [here.](https://github.com/DongSooMikeSeo/kingCounty2019Analysis/blob/master/King%20County%202019%20General%20Election.ipynb)** Please hit the "reload" if you got "something went wrong" message.
 
 **See final live web map [here.](https://dongsoomikeseo.github.io/kingCounty2019Analysis/)**
 
