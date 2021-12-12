@@ -3,9 +3,9 @@
 
 If you send out un-customized marketing materials for everybody, you will just waste your resource and even end up losing your votes. 
 
-**See Jupyter Notebook for data wrangling and Folium Map [here.](https://github.com/DongSooMikeSeo/kingCounty2019Analysis/blob/master/King%20County%202019%20General%20Election.ipynb)** Please hit the "reload" if you got "something went wrong" message.
+**See Jupyter Notebook for data wrangling and steps to generate a Folium Map  [here.](https://github.com/DongSooMikeSeo/kingCounty2019Analysis/blob/master/King%20County%202019%20General%20Election.ipynb)** Folium Map is currently commented out, so please download the notebook if you want to see it.
 
-**See final live web map [here.](https://dongsoomikeseo.github.io/kingCounty2019Analysis/)**
+**See final live web map (Leaflet) [here.](https://dongsoomikeseo.github.io/kingCounty2019Analysis/)**
 
 
 ## What is this project about?
@@ -20,7 +20,7 @@ For example, in 2019, there were Initiative #976 (whether to cut transportation 
 
 **See Jupyter Notebook for data wrangling and Folium Map [here.](https://github.com/DongSooMikeSeo/kingCounty2019Analysis/blob/master/King%20County%202019%20General%20Election.ipynb)**
 
-**See my live web map [here.](https://dongsoomikeseo.github.io/kingCounty2019Analysis/)**
+**See my live web map (Leaflet) [here.](https://dongsoomikeseo.github.io/kingCounty2019Analysis/)**
 
 **Snapshot of Folium Map.** You can see there is a cluster of precincts with diverging voting in South King County.
 
